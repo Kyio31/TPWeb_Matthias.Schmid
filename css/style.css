@@ -1,19 +1,24 @@
 
+@media (min-width: 1200px) {
+	.container-big{
+		max-width: 1280px;
+	}
+}
+
 #influence {
 
     background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg);
-    background-position: -350px;
-    padding-top: 50px;
+    background-position: center;
+    padding-top: 100px;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(255, 255, 255);
     font-family: Open Sans, Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 120px;
 
 
     }
 
-h2 {
+#influence h2 {
 
     color: rgb(235, 222, 194);
     font-family: Open Sans, Arial, Helvetica, sans-serif;
@@ -29,70 +34,47 @@ h2 {
 
 }
 
-h1 {
+#influence h1 {
 
     color: rgb(255, 255, 255);
     font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
-    font-size: 51.6px;
+    font-size: 48px;
     font-weight: 700;
     text-align: right;
 
 
 }
 
-p {
+#influence p {
 
     color: rgb(235, 222, 194);
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
-    font-size: 17.2833px;
-    font-weight: 400;
-    line-height: 25.9333px;
-    margin-top: 20px;
-    text-align: right;
-    text-rendering: optimizelegibility;
-    text-shadow: rgba(0, 0, 0, 0) 0px 0px 1px, rgba(0, 0, 0, 0.8) 0px 1px 2px
-    
-}
-
-a {
-
-    background-color:#0c070a;
-	border: 0mm;
-	color: #f7b10a;
-	text-decoration: none;
-	display: inline-block;
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;
-    padding-bottom: 12px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    border-bottom-color: rgb(199, 126, 25);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(199, 126, 25);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: rgb(199, 126, 25);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: rgb(199, 126, 25);
-    border-top-style: solid;
-    border-top-width: 1px;
-    margin-bottom:70px;
+    margin-top: 20px;
+    text-align: right;
+    text-rendering: optimizelegibility;
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 1px, rgba(0, 0, 0, 0.8) 0px 1px 2px;
+    
+}
 
+
+#influence a {
+
+    background-color:#0c070a;
+    color: #f7b10a;
+    border: 1px solid #c77e19;
+	display: inline-block;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding:12px 30px;
+    text-align: center;
+    position: fixed;
+    text-transform: uppercase;
 
 }
 
-a:hover {
+#influence a:hover {
 	background-color: #c77e19;
 }
